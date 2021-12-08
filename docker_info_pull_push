@@ -1,0 +1,19 @@
+antoshabezroflov 
+FORCE1q2w3e4r5t6y
+
+
+username/imagename:tag:
+
+
+docker build -t billglasses/gates:v2.11.1989 .
+
+docker build -t <username>/<imagename>/<tag>/ .
+
+docker login
+# А можно сразу указать имя пользователя
+docker login -u <username>
+
+
+docker push billglasses/gates:v2.11.1989
+
+docker push <username>/<imagename>/<tag>:
